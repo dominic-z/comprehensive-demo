@@ -1,0 +1,13 @@
+在text.txt新增一行add something1 提交一次 记为A
+在text.txt新增一行add something2 提交一次 记为B
+在text.txt新增一行add something3 提交一次 记为C
+
+然后如果此时 git revert C 操作结果就是将C这次提交反过来操作一波
+
+----
+
+在text.txt新增一行add something1 提交一次 记为A
+在text.txt新增一行add something2 提交一次 记为B
+在text.txt新增一行add something3 提交一次 记为C
+
+然后如果此时 git revert B 操作结果就是会出现冲突 合理
